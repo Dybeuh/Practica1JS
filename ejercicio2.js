@@ -13,9 +13,9 @@ class Zombi {
 class Abominacion extends Zombi {
 
     ataqueMultiple(objetivo) {
-        console.log(`${this.nombre} ataca a ${objetivo} y le causa ${this.potencia} puntos de daño`);
-        console.log(`${this.nombre} ataca a ${objetivo} y le causa ${this.potencia} puntos de daño`);
-        console.log(`${this.nombre} ataca a ${objetivo} y le causa ${this.potencia} puntos de daño`);
+        super.atacar(objetivo);
+        super.atacar(objetivo);
+        super.atacar(objetivo);
     }
 }
 
