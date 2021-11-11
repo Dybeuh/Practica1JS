@@ -1,3 +1,5 @@
+//Ejercicio 3
+
 class Consumible {
     constructor(nombre) {
         this.nombre = nombre;
