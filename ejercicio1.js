@@ -1,3 +1,4 @@
+//Creación clase jugador
 class Jugador {
     constructor(nombre, ocupacion, faccion){
         this.nombre = nombre;
